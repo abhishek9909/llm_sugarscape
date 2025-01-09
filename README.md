@@ -1,2 +1,5 @@
 # llm_sugarscape
-Visualizing sugarscape with LLMs.
+Visualizing Sugarscape with LLMs.
+
+## Aim:
+Show how sugarscape can still hold true, when F(x) is determined by LLM.
