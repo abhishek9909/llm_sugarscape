@@ -1,0 +1,1 @@
+Sample outputs for input command: `python main.py 500 1024 3 0.3`
