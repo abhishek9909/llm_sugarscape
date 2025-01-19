@@ -1,1 +1,4 @@
 outputs
+logs.txt
+batch
+logs_run*
