@@ -18,7 +18,7 @@ Root/
 - `classic` contains the default implementation of schelling simulation.
 - To run in `classic` mode, go to the folder, and run `python main.py {arg1} {arg2} {arg3} {arg4}` according to explanation provided in code.
 - `llm-based` contains the experimental implementation.
-- Before running, unzip the `data.zip` file.
+- Before running, download and unzip the `data.zip` file from the `releases` section of the repo.
 - Ensure the folder structure should look like this:
 
 llm-based/
