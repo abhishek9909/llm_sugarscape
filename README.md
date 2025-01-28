@@ -1,11 +1,30 @@
-# llm_sugarscape
-Visualizing Sugarscape with LLMs.
+# Updating ABMs with LLMs.
 
-## Aim:
-Show how sugarscape can still hold true, when F(x) is determined by LLM.
+## Article.
+- Refer [this notion article](https://wikipedia.com).
 
-## Plan for article:
-1. Explain about SABM. - and schelling simulation
-2. Give mathematical intuition - about trivial soln, no soln and soln exists conditions.
-3. What we want to see with LLM. - check whether and where soln exists.
-4. Experiment - defn and design; analysis of results and what to make of this.
+## Prerequisites to run.
+- `matplotlib(>3.10)`, `openai(>1.50)`, `numpy(>2.2)` and `pandas(>2.2)` with `python(>3.11)` installed in `venv`.
+- minor versions of these packages should also work, no fancy util functions were used.
+
+## Run:
+Root/
+├── classic/
+│   ├── main.py
+├── llm-based
+│   ├── main.py
+│   ├── main_alt.py
+
+- `classic` contains the default implementation of schelling simulation.
+- To run in `classic` mode, go to the folder, and run `python main.py {arg1} {arg2} {arg3} {arg4}` according to explanation provided in code.
+- `llm-based` contains the experimental implementation.
+- Before running, unzip the `data.zip` file.
+- Ensure the folder structure should look like this:
+
+llm-based/
+├── data/
+├── main.py
+├── main_alt.py
+
+- Run `python main.py *args` for the first variant (with all parameters) and `python main_alt.py *args` for the second variant.
+- Data can be replicated by running cells in `rough2.ipynb` for `exp0` and `rough3.ipynb` for `exp1`.
