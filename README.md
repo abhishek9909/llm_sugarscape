@@ -1,7 +1,7 @@
 # Updating ABMs with LLMs.
 
 ## Article.
-- Refer [this notion article](https://wikipedia.com).
+- Refer [this notion article](https://phantom-pine-d78.notion.site/Updating-ABMs-with-LLMs-182e46ec019d8096b56fd04ce8dda39e).
 
 ## Prerequisites to run.
 - `matplotlib(>3.10)`, `openai(>1.50)`, `numpy(>2.2)` and `pandas(>2.2)` with `python(>3.11)` installed in `venv`.
